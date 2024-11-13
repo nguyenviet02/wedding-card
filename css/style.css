@@ -68,7 +68,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #818491;
   text-align: left;
   background-color: #ffffff;
 }
@@ -10162,7 +10161,7 @@ a.text-dark:focus {
   align-items: center;
   width: 100%;
   flex: 1;
-	gap: 24px;
+  gap: 24px;
 }
 
 .about_box img {
@@ -10182,7 +10181,7 @@ a.text-dark:focus {
 }
 
 .about_box .content-bg {
-	background-color: #deecef;
+  background-color: #deecef;
 }
 
 .about_box .content-bg::after {
@@ -10205,6 +10204,15 @@ a.text-dark:focus {
   height: 200px;
   background: url(../img/shape-right.png) no-repeat center center;
   background-size: cover;
+}
+
+.button-fb {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  margin: 0 auto;
+  z-index: 20;
 }
 
 @media screen and (max-width: 424px) {
